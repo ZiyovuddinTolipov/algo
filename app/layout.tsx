@@ -1,6 +1,6 @@
-import type React from "react"
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
+import type React from "react"
 import "./globals.css"
 
 const inter = Inter({ subsets: ["latin"] })
@@ -45,9 +45,9 @@ export default function RootLayout({
     <html lang="uz">
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-      <link href="https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" precedence="default" />
       <body className={inter.className} style={{ background: 'url("https://images.unsplash.com/photo-1569470451072-68314f596aec?ixid=MnwxOTgwNzN8MHwxfHNlYXJjaHwxMXx8Z3JhZGllbnQlMjBibGFja3xlbnwxfHx8fDE2ODE4NTM1MTQ&ixlib=rb-4.0.3&w=2400&q=25&auto=format) no-repeat center center fixed' }}>
-        <main className="max-w-5xl mx-auto overflow-auto">{children}</main>
+        <main className="max-w-6xl mx-auto overflow-auto">{children}</main>
       </body>
     </html>
   )
