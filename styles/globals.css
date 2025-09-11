@@ -92,3 +92,15 @@ body {
     @apply bg-background text-foreground;
   }
 }
+.robot-image {
+    position: absolute;
+    inset: 0px;
+    overflow: hidden;
+    border-radius: inherit;
+    background-image: url(https://imgproxy.gamma.app/resize/quality:80/resizing_type:fit/width:1200/https://cdn.gamma.app/hdiu3rngwxn4oss/generated-images/PCTnbaFkbcoMG10r_0RWP.jpg);
+    -webkit-background-position: center;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

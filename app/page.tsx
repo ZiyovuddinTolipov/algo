@@ -1,3 +1,4 @@
+import { Monitor } from 'lucide-react'
 import Image from 'next/image'
 
 const Home = () => {
@@ -160,13 +161,89 @@ const Home = () => {
         </div>
         <div className='p-12 flex flex-col gap-8 w-2/3'>
           <h2 className='text-5xl font-medium text-white '>Сертификация и методика</h2>
-          <div>
-          
-              <h4 className='text-2xl '>Сертификация</h4>
+          <div className='flex gap-4'>
+            <h4 className='text-4xl h-24 w-16 border-2 border-[#FC8337] rounded-full flex items-center justify-center'>1</h4>
+            <div className='text-2xl flex flex-col gap-2 justify-center'>
+              <span>Поминутные сценарии</span>
+              <span className='text-xl'>Детальные планы уроков для каждого занятия.</span>
+            </div>
           </div>
-          <div></div>
-          <div></div>
+          <div className='flex gap-4'>
+            <h4 className='text-4xl h-24 w-16 border-2 border-[#FC8337] rounded-full flex items-center justify-center'>2</h4>
+            <div className='text-2xl flex flex-col gap-2 justify-center'>
+              <span>Единое качество</span>
+              <span className='text-xl'>Обеспечение одинакового уровня преподавания во всех классах.</span>
+            </div>
+          </div>
+          <div className='flex gap-4'>
+            <h4 className='text-4xl h-24 w-16 border-2 border-[#FC8337] rounded-full flex items-center justify-center'>3</h4>
+            <div className='text-2xl flex flex-col gap-2 justify-center'>
+              <span>Стандартизация</span>
+              <span className='text-xl'>Гарантия качества независимо от преподавателя.</span>
+            </div>
+          </div>
         </div>
+      </section>
+      <section className='flex flex-col gap-8 p-12 pt-16 rounded-3xl border-2 border-[#4e4e4e]'>
+        <h2 className='text-6xl font-medium text-white '>Медиа и продажи</h2>
+        <div className='flex gap-4 w-full'>
+          <div className='w-1/2 leading-10 text-white flex flex-col gap-4'>
+            <h3 className='text-2xl'>Наши медиа-агенты</h3>
+            <p className='text-xl'>Профессиональное продвижение ваших IT-курсов.</p>
+            <h3 className='text-2xl'>Позиционирование</h3>
+            <p className='text-xl'>«Ведут практикующие разработчики» — повышает доверие и привлекательность</p>
+            <h3 className='text-2xl'>Влияние на новый поток учеников</h3>
+            <p className='text-xl'>Рост нового потока учеников на 15–25% (по данным пилотов).</p>
+          </div>
+          <div className='w-1/2'>
+            <Image src="https://imgproxy.gamma.app/resize/quality:80/resizing_type:fit/width:2000/https://cdn.gamma.app/hdiu3rngwxn4oss/generated-images/WgoYUpapg-Rc1tE8cYPRL.jpg" height={500} width={300} className='h-[450px] w-[500px] rounded-xl' alt='Continuous lessons and retention image' />
+          </div>
+        </div>
+      </section>
+      <section className='flex rounded-3xl border-2 border-[#4e4e4e] w-full'>
+        <div className=' p-12 gap-4 w-[70%]'>
+          <h2 className='text-4xl font-medium text-white '>Оборудование для робототехники</h2>
+          <div className='flex border-2 border-[#FC8337] rounded-xl h-[160px] mt-4'>
+            <div className='w-[10%] flex items-center justify-center'>
+              <Monitor className='w-10 h-10' />
+            </div>
+            <div className='border-l-2 border-[#FC8337] pl-4 w-[90%] flex flex-col gap-4 justify-center'>
+              <h3 className='text-2xl'>Комплексное оснащение</h3>
+              <p className='text-2xl'>Мы предоставляем всё необходимое оборудование для уроков робототехники, от стартовых наборов до продвинутых систем.</p>
+            </div>
+          </div>
+          <div className='flex border-2 border-[#FC8337] rounded-xl h-[160px] mt-4'>
+            <div className='w-[10%] flex items-center justify-center'>
+              <Monitor className='w-10 h-10' />
+            </div>
+            <div className='border-l-2 border-[#FC8337] pl-4 w-[90%] flex flex-col gap-4 justify-center'>
+              <h3 className='text-2xl'>Экономия средств</h3>
+              <p className='text-2xl'>Школе не нужно закупать дорогостоящие робототехнические комплекты, снижая капитальные затраты.</p>
+            </div>
+          </div>
+          <div className='flex border-2 border-[#FC8337] rounded-xl h-[160px] mt-4'>
+            <div className='w-[10%] flex items-center justify-center'>
+              <Monitor className='w-10 h-10' />
+            </div>
+            <div className='border-l-2 border-[#FC8337] pl-4 w-[90%] flex flex-col gap-4 justify-center'>
+              <h3 className='text-2xl'>Гарантия качества</h3>
+              <p className='text-2xl'>Наше оборудование всегда актуально, исправно и соответствует стандартам нашей методики обучения.</p>
+            </div>
+          </div>
+          <div className='flex border-2 border-[#FC8337] rounded-xl h-[160px] mt-4'>
+            <div className='w-[10%] flex items-center justify-center'>
+              <Monitor className='w-10 h-10' />
+            </div>
+            <div className='border-l-2 border-[#FC8337] pl-4 w-[90%] flex flex-col gap-4 justify-center'>
+              <h3 className='text-2xl'>Бесшовная интеграция</h3>
+              <p className='text-2xl'>Оборудование идеально синхронизировано с учебной программой, обеспечивая плавный и эффективный процесс обучения.</p>
+            </div>
+          </div>
+          <h3 className='text-2xl mt-4'>
+            Наш подход "IT как сервис" включает полное обеспечение специализированным оборудованием, минимизируя нагрузку на бюджет и ресурсы школы.
+          </h3>
+        </div>
+        <div className="robot-image"/>
       </section>
     </div>
   )
