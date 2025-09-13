@@ -1,0 +1,196 @@
+{
+  "profile": {
+    "name": "Sardor Salimov",
+    "title": "Full-Stack Developer",
+    "quote": {
+      "text": "I will help you develop your skills in IT.",
+      "author": "SS"
+    },
+    "avatar": {
+      "src": "/assets/images/avatar.png",
+      "alt": "Sardor Salimov"
+    },
+    "languages": [
+      { "code": "en", "label": "English", "flagSrc": "/assets/flags/uk.png" },
+      { "code": "ru", "label": "Russian", "flagSrc": "/assets/flags/ru.png" },
+      { "code": "uz", "label": "Uzbek", "flagSrc": "/assets/flags/uz.png" },
+      { "code": "tj", "label": "Tajik", "flagSrc": "/assets/flags/tj.png" }
+    ],
+    "contact": {
+      "email": "sardorcoc@gmail.com",
+      "website": "https://instagram.com/@iamaytishnik",
+      "location": "Samarkand, UZ"
+    }
+  },
+
+  "layout": {
+    "sectionsOrder": ["skills", "education", "experience"],
+    "theme": "light",
+    "showTimelineLine": true
+  },
+
+  "skills": {
+    "intro": "Skills",
+    "grid": [
+      {
+        "id": "frontend",
+        "title": "Frontend",
+        "subtitle": "WEB Frontend developer",
+        "src": "/assets/icons/front.png"
+      },
+      {
+        "id": "backend",
+        "title": "Backend",
+        "subtitle": "C++ and Python Backend developer",
+        "src": "/assets/icons/back.png"
+      },
+      {
+        "id": "foundation",
+        "title": "Foundation",
+        "subtitle": "Elementary Computer Science Mentor",
+        "src": "/assets/icons/found.png"
+      },
+      {
+        "id": "design",
+        "title": "Design",
+        "subtitle": "Graphic and WEB Design master",
+        "src": "/assets/icons/design.png"
+      },
+      {
+        "id": "db",
+        "title": "DB",
+        "subtitle": "SQL data base",
+        "src": "/assets/icons/db.png"
+      },
+      {
+        "id": "adobe",
+        "title": "Adobe",
+        "subtitle": "Adobe video and photo edit skills",
+        "src": "/assets/icons/rotato.png"
+      },
+      {
+        "id": "vscode",
+        "title": "VS Code",
+        "subtitle": "Code editor",
+        "src": "/assets/icons/vscode.png"
+      },
+      {
+        "id": "xcode",
+        "title": "Xcode",
+        "subtitle": "iOS development",
+        "src": "/assets/icons/xcode.png"
+      },
+      {
+        "id": "notion",
+        "title": "Notion",
+        "subtitle": "Project management",
+        "src": "/assets/icons/notion.png"
+      }
+    ]
+  },
+
+  "education": {
+    "intro": "Education",
+    "cards": [
+      {
+        "institution": "SB TUIT",
+        "course": "Computer Engineering",
+        "date": "Aug 2019",
+        "logoSrc": "/assets/logos/tatu.png",
+        "description": "Studying the fundamentals and skills of programming."
+      },
+      {
+        "institution": "ICPC",
+        "course": "International Competative Programming Contest",
+        "date": "Nov 2018",
+        "logoSrc": "/assets/logos/ICPC.png",
+        "description": "International Contest of Algo developers developers and Competative programmers."
+      },
+      {
+        "institution": "Coursera",
+        "course": "User research course",
+        "date": "Dec 2020",
+        "logoSrc": "/assets/logos/coursera.png",
+        "description": "User interviews, surveys and synthesis methods."
+      },
+      {
+        "institution": "CTF",
+        "course": "Capture the Flag",
+        "date": "2019-2025",
+        "logoSrc": "/assets/logos/ctf.png",
+        "description": "Contest of Cyber security"
+      },
+      {
+        "institution": "Astrum",
+        "course": "Pedagogue",
+        "date": "Feb 2018",
+        "logoSrc": "/assets/logos/ast.png",
+        "description": "Pedagogue skills in IT and programming"
+      },
+      {
+        "institution": "Awwwards Academy",
+        "course": "Web design course",
+        "date": "Aug 2016",
+        "logoSrc": "/assets/logos/awwwards.png",
+        "description": "Latest trends and best practices in web aesthetics."
+      }
+    ]
+  },
+
+  "experience": {
+    "intro": "Experience",
+    "timeline": [
+      {
+        "company": "Algorithmic Solutions",
+        "role": "Team Lead",
+        "startDate": "Aug 2022",
+        "endDate": "-",
+        "location": "Samarkand",
+        "logoSrc": "/assets/logos/as.png",
+        "bullets": [
+          "Managing the IT team and overseeing their tasks. Receiving IT orders and delivering them to the owners on time."
+        ],
+        "description": "Managing the IT team and overseeing their tasks. Receiving IT orders and delivering them to the owners on time."
+      },
+      {
+        "company": "Presidential school",
+        "role": "Coding club teacher",
+        "startDate": "Oct 2022",
+        "endDate": "Aug 2024",
+        "location": "Samarkand",
+        "logoSrc": "/assets/logos/PM.png",
+        "bullets": [
+          "teacheinA special IT staff member who prepares school students for programming olympiads and helps them become IT specialists."
+        ],
+        "description": "A special IT staff member who prepares school students for programming olympiads and helps them become IT specialists."
+      },
+      {
+        "company": "KDB bank",
+        "role": "Desktop developer",
+        "startDate": "Dec 2020",
+        "endDate": "Sep 2021",
+        "location": "Tashkent",
+        "logoSrc": "/assets/logos/kdb.png",
+        "bullets": ["Developing and managing the bank’s desktop application."],
+        "description": "Developing and managing the bank’s desktop application."
+      },
+      {
+        "company": "Millat Umidi",
+        "role": "IT teacher",
+        "startDate": "Sep 2022",
+        "endDate": "Oct 2023",
+        "location": "Tashkent",
+        "logoSrc": "/assets/logos/MU.png",
+        "bullets": [
+          "Teaching IT and programming classes for private school students and guiding them towards modern IT careers."
+        ],
+        "description": "Teaching IT and programming classes for private school students and guiding them towards modern IT careers."
+      }
+    ]
+  },
+
+  "meta": {
+    "generatedAt": "2025-08-24T00:00:00Z",
+    "notes": "All image fields use `src` paths. Replace `/assets/...` with your actual file locations (for example: `/mnt/data/...`)."
+  }
+}
