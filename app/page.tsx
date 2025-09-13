@@ -200,8 +200,8 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className='flex rounded-3xl border-2 border-[#4e4e4e] w-full'>
-        <div className=' p-12 gap-4 w-[70%]'>
+      <section className='flex justify-between rounded-3xl border-2 border-[#4e4e4e] h-[940px]'>
+        <div className=' p-12 gap-4 w-3/5'>
           <h2 className='text-4xl font-medium text-white '>Оборудование для робототехники</h2>
           <div className='flex border-2 border-[#FC8337] rounded-xl h-[160px] mt-4'>
             <div className='w-[10%] flex items-center justify-center'>
@@ -243,7 +243,91 @@ const Home = () => {
             Наш подход "IT как сервис" включает полное обеспечение специализированным оборудованием, минимизируя нагрузку на бюджет и ресурсы школы.
           </h3>
         </div>
-        <div className="robot-image"/>
+        <div className=" w-2/5 h-full"
+        >
+          <Image src={images.bg1} alt='header image' width={100} height={520} className='h-full w-full object-cover rounded-r-3xl' />
+        </div>
+      </section>
+      <section className='flex justify-between rounded-3xl border-2 border-[#4e4e4e] h-[700px]'>
+        <div className=" w-2/5 h-full"
+        >
+          <Image src={images.bg1} alt='header image' width={100} height={520} className='h-full w-full object-cover rounded-l-3xl' />
+        </div>
+        <div className=' p-12 gap-4 w-3/5'>
+          <h2 className='text-6xl font-semibold text-white '>IT-мероприятия</h2>
+          <p className='text-2xl mt-4'>Раз в год мы организуем бесплатные IT-мероприятия и хакатоны непосредственно в вашей школе. Это помогает:</p>
+          <div className='pl-8 mt-4 flex flex-col gap-8 text-white'>
+            <div>
+              <h3 className='text-2xl font-semibold'>Привлечь новых учеников.</h3>
+              <p className='text-xl'>Демонстрируем увлекательность IT-сферы и привлекаем школьников на постоянные курсы.</p>
+            </div>
+            <div>
+              <h3 className='text-2xl'>Повысить интерес к IT.</h3>
+              <p className='text-xl'>
+                Создаем позитивный образ технологий, мотивируя детей к дальнейшему обучению.</p>
+            </div>
+            <div>
+              <h3 className='text-2xl'>Выявить таланты</h3>
+              <p className='text-xl'>Находим одаренных учеников, которых можно развивать в рамках ваших образовательных программ.</p>
+            </div>
+          </div>
+          <p className='text-2xl mt-4'>
+            Такие мероприятия значительно укрепляют позицию вашей школы как лидера в сфере современного образования.
+          </p>
+        </div>
+
+      </section>
+      <section className='flex flex-col gap-8 p-12 pt-16 rounded-3xl border-2 border-[#4e4e4e]'>
+        <h2 className='text-6xl font-medium text-white '>Кружки выходного дня</h2>
+        <div className='flex justify-between items-start gap-8 text-center'>
+          <div className='flex flex-col gap-2'>
+            <p className='text-5xl font-medium text-white'>70%</p>
+            <p className='text-white text-xl'>Заполняемость</p>
+            <p className='text-[#999999] text-lg'>Средняя заполняемость кружков.</p>
+          </div>
+          <div className='flex flex-col gap-2'>
+            <p className='text-5xl font-medium text-white'>6,000,000</p>
+            <p className='text-white text-xl'>Выручка</p>
+            <p className='text-[#999999] text-lg'>Средняя выручка с одного кабинета в месяц.</p>
+          </div>
+          <div className='flex flex-col gap-2'>
+            <p className='text-5xl font-medium text-white'>30/70</p>
+            <p className='text-white text-xl'>Revenue-sharing</p>
+            <p className='text-[#999999] text-lg'>Модель разделения доходов.</p>
+          </div>
+        </div>
+        <p className='text-[#999999] text-lg'>Дополнительный источник дохода для школы с минимальными вложениями.</p>
+      </section>
+      <section className='flex flex-col gap-8 p-12 pt-16 rounded-3xl border-2 border-[#4e4e4e]'>
+        <h2 className='text-6xl font-medium text-white '>Экономика: IT-сервис vs. свой найм</h2>
+        <table className='w-full border-collapse rounded-2xl overflow-hidden border-2 border-gray-400 text-white'>
+
+          <tr className='bg-white/10'>
+            <td className='p-4  border border-[#4e4e4e]'>Зарплата</td>
+            <td className='p-4  border border-[#4e4e4e]'>$1000+</td>
+            <td className='p-4  border border-[#4e4e4e]'>Включено</td>
+          </tr>
+          <tr>
+            <td className='p-4 border border-[#4e4e4e]'>Налоги</td>
+            <td className='p-4 border border-[#4e4e4e]'>20-30%</td>
+            <td className='p-4 border border-[#4e4e4e]'>Включено</td>
+          </tr>
+          <tr className='bg-white/10'>
+            <td className='p-4  border border-[#4e4e4e]'>Поиск/Найм</td>
+            <td className='p-4  border border-[#4e4e4e]'>Высокие затраты</td>
+            <td className='p-4  border border-[#4e4e4e]'>0</td>
+          </tr>
+          <tr>
+            <td className='p-4  border border-[#4e4e4e]'>Обучение</td>
+            <td className='p-4  border border-[#4e4e4e]'>Постоянно</td>
+            <td className='p-4  border border-[#4e4e4e]'>Включено</td>
+          </tr>
+          <tr className='bg-white/10'>
+            <td className='p-4  border border-[#4e4e4e]'>Замены</td>
+            <td className='p-4  border border-[#4e4e4e]'>Сложно</td>
+            <td className='p-4  border border-[#4e4e4e]'>Гарантировано</td>
+          </tr>
+        </table>
       </section>
     </div>
   )
